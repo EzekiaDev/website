@@ -3,10 +3,8 @@
     <title>my EPIC WEBSITE!!</title>
     <style>
     .center {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 50%;
+        display: grid;
+        place-items: center;
         height: auto;
         border: 4px solid rgba(18, 150, 18, 0.7);
         margin: 10px;
@@ -33,7 +31,8 @@
     .PLEASE-CENTER {
         display: flex;
         justify-content: center;
-        width: 400px
+        width: 400px;
+        height: 100%
     }
     * {
     background-color: rgb(41, 52, 70);
@@ -42,13 +41,13 @@
     </style>
     </head>
     <body>
-    <div class="PLEASE-CENTER">
+    <div class="center">
         <div class = "title">
             <h1>
                 <strong>Welcome to my webpage</strong> 
             </h1>
         </div>
-        <div class = "center">
+        <div>
             <p>
                 <u>HELLO GUYS!!!</u> welcome to my website <br>
                 <strong>please rate highly and leave a like</strong><br>
